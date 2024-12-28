@@ -1,0 +1,2 @@
+D:\Marc\Documents\Desarrollo\serinfor\VuforiAR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\Marc\Documents\Desarrollo\serinfor\VuforiAR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

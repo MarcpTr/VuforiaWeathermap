@@ -1,0 +1,1 @@
+D:\Marc\Documents\Desarrollo\serinfor\VuforiAR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\3h6g3v25\obj\arm64-v8a
