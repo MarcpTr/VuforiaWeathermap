@@ -18,6 +18,6 @@ Esta aplicación es una experiencia de realidad aumentada (AR) creada con Unity 
 
 1. Regístrate en [OpenWeather](https://openweathermap.org/) y obtiene una clave de API.
 2. En el script que maneja la obtención de datos del tiempo (por ejemplo, `OpenWeather.cs`), reemplaza la clave de API con tu propia clave.
-3. 
+
 ### Endpoint utilizado:
 - **Pronóstico por coordenadas**: `https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&units=metric&lang=sp&appid={API_KEY}`
