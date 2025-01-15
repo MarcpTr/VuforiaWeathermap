@@ -5,15 +5,25 @@ using SimpleJSON;
 using TMPro;
 using UnityEngine.UI;
 public class OpenWeather : MonoBehaviour
-{
-    public string lat, lon;
-    string apikey = "";
-    public string description, icon;
-    public float temp, windSpeed, windDeg;
-    public TMP_Text text;
-    public Image image;
-    public Sprite sprite;
-    public GameObject windArrow;
+{    [SerializeField]
+     string lat;
+     [SerializeField]
+     sting lon;
+     [SerializeField]
+     string apikey = "";
+     [SerializeField]
+     string description;
+     [SerializeField]
+     string icon;
+     [SerializeField]
+     float temp, windSpeed, windDeg;
+     [SerializeField]
+     TMP_Text text;[SerializeField]
+     Image image;
+     [SerializeField]
+     Sprite sprite;
+     [SerializeField]
+     GameObject windArrow;
     void Start()
     { 
        
@@ -40,7 +50,7 @@ public class OpenWeather : MonoBehaviour
             temp = data["main"]["temp"];
             windSpeed = data["wind"]["speed"];
             windDeg = data["wind"]["deg"];
-            text.text=description+ "\u000a" + temp+"บ";
+            text.text=description+ "\u000a" + temp+"ยบ";
             sprite = Resources.Load<Sprite>("Images/" + icon);
             image.sprite = sprite;
             windArrow.transform.localRotation= Quaternion.Euler(0, 0, windDeg);
